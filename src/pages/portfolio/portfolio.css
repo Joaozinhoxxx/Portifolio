@@ -1,0 +1,125 @@
+@media screen and (max-width: 390px) {
+  /* Seletor de estilo para dispositivos móveis */
+  
+  .projetos{
+    display: flex;
+    flex-direction: column;
+  }
+  .bem-vindo h1{
+    font-size: 3rem;
+    margin-left: 1px;
+  }
+  .imagem-1{
+    width: 50vw;
+  }
+  .explicacao{
+    font-size: 0.8rem;
+    margin-bottom: 10%;
+  }
+  .portfolio{
+    font-size: 0.1rem;
+    text-align: center;
+  }
+  .imagem-1{
+    width: 41vw;
+  }
+  .imagem{
+    width: 47vw;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 414px) {
+  /* Seletor de estilo para desktops */
+  .projetos{
+    display: flex;
+    flex-direction: column;
+  }
+  span{
+    font-size: 1.5rem;
+  }
+  .botao{
+    height: 7vh;
+    font-size: 1.2rem;
+    
+  }
+  .imagem-principal{
+    height: 45vh;
+  }
+  .explicacao{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .portfolio{
+    text-align: center;
+  }
+
+
+  span{
+    font-size: 2rem;
+  }
+  .paragrafo{
+    font-size: 2rem;
+  }
+}
+  @media screen and (min-width: 414px) and (max-width: 577px){
+  /* Seletor de estilo para tablets */
+
+  .projetos{
+    display: flex;
+    flex-direction: column;
+  }
+  span{
+    font-size: 1.5rem;
+  }
+  .botao{
+    height: 7vh;
+    font-size: 1.2rem;
+    
+  }
+  .imagem-principal{
+    height: 45vh;
+  }
+  .explicacao{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .portfolio{
+    text-align: center;
+  }
+
+
+  span{
+    font-size: 2rem;
+  }
+  .paragrafo{
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 820px) {
+  /* Seletor de estilo para tablets */
+ 
+.imagem-principal{
+    height: 50vh;
+  }
+  .bem-vindo{
+    font-size: 4rem;
+
+    
+  }
+  .botao{
+    height: 7vh;
+    font-size: 1.4rem;
+  }
+  .principal{
+    display: flex;
+    flex-direction: column;
+  }
+  .imagem-1{
+    width: 25vw;
+  }
+  .imagem{
+    width: 27vw;
+  }
+}

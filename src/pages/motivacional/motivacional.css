@@ -1,0 +1,63 @@
+@media screen and (max-width: 390px) {
+  /* Seletor de estilo para dispositivos móveis */
+  .bem-vindo{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 30px;
+   }
+   .bem-vindo img{
+    width: 55vw;
+   }
+   .motivacao{
+    font-size: 1.4rem;
+    text-align: center;
+   }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 414px) {
+  /* Seletor de estilo para desktops */
+  .bem-vindo{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 15%;
+    text-align: center;
+    justify-content: center;
+   }
+   .dev{
+    width: 50vw;
+   }
+   .motivacao{
+    font-size: 2rem;
+   }
+}
+  @media screen and (min-width: 414px) and (max-width: 577px){
+  /* Seletor de estilo para tablets */
+  .bem-vindo{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 20%;
+    text-align: center;
+   }
+   .bem-vindo img{
+    width: 55vw;
+   }
+   .motivacao{
+    font-size: 1.2rem;
+   }
+}
+@media screen and (min-width: 577px) and (max-width: 820px) {
+  /* Seletor de estilo para tablets */
+ .bem-vindo{
+  display: flex;
+  
+  align-items: center;
+ }
+ .bem-vindo img{
+  width: 45vw;
+  height: 70vh;
+ }
+ .motivacao{
+  font-size: 2rem;
+ }
+}

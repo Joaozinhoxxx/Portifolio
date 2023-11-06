@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 390px) {
+  /* Seletor de estilo para dispositivos móveis */
+  .principal{
+    display: flex;
+    align-items: center;
+  }
+  .bem-vindo h1{
+    font-size: 2rem;
+    margin-right: 3rem;
+  }
+  .endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .texto-contato{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 414px) {
+  /* Seletor de estilo para desktops */
+  .principal{
+    display: flex;
+    align-items: center;
+  }
+  .bem-vindo h1{
+    font-size: 2rem;
+    margin-right: 3rem;
+  }
+  .endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .texto-contato{
+    font-size: 0.9rem;
+  }
+  
+}
+  @media screen and (min-width: 414px) and (max-width: 577px){
+  /* Seletor de estilo para tablets */
+  .principal{
+    display: flex;
+    align-items: center;
+  }
+  .bem-vindo h1{
+    font-size: 2rem;
+    margin-right: 3rem;
+  }
+  .endereco{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+}
+@media screen and (min-width: 577px) and (max-width: 820px) {
+  /* Seletor de estilo para tablets */
+ 
+
+
+}
